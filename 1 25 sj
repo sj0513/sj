@@ -1,0 +1,54 @@
+#include <stdio.h>
+
+//주석 메모
+/*
+
+*/
+
+int main(void) // 메인함수
+{
+	//변수 
+	//자료형 변수이름= 값;
+	//int number = 10;
+	//int a = 40;
+
+	//연산자
+
+	//더하기: +
+	//빼기: -
+	//나누기: /
+	//곱하기: *
+
+	//??? : %
+
+
+	//3+4
+	//270 / 45;
+
+	//출력함수
+	//printf(출력할값);
+
+	printf("helio world!");
+	printf("%d", 3 + 4);
+	//% format
+
+	// %d : 정수형
+	// %f : 실수형
+	// %c : 문자
+	// %s : 문자열
+
+
+	printf("number");
+	printf("결과값은 %d 입니다", 30 - 20);
+
+	printf("number");
+	printf("결과값은 %d 입니다", 30 * 20);
+
+	printf("number");
+	printf("결과값은 %d 입니다", 30 / 20);
+
+	printf("number");
+	printf("결과값은 %d 입니다", 30 % 20);
+
+	printf("number");
+	printf("%d * %d + %d = %d ", 30 , 20 , 1,  30 * 20 + 1);
